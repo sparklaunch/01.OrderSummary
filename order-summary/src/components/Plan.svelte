@@ -1,6 +1,6 @@
 <div id="plan">
   <div id="plan-icon">
-    <img src="/assets/icon-music.svg" alt="Music Icon" />
+    <img src="./assets/icon-music.svg" alt="Music Icon" />
   </div>
   <div id="plan-text">
     <p>Annual Plan</p>
