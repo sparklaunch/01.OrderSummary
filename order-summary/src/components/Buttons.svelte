@@ -22,6 +22,10 @@
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
     cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  #proceed:hover {
+    background-color: rgb(106, 97, 239);
   }
   #cancel {
     border: none;
@@ -33,5 +37,9 @@
     font-size: 18px;
     padding: 10px 0;
     cursor: pointer;
+    transition: color 0.3s;
+  }
+  #cancel:hover {
+    color: rgb(34, 41, 57);
   }
 </style>

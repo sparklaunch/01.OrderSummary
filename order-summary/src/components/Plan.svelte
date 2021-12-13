@@ -48,5 +48,9 @@
     color: blue;
     text-decoration: underline;
     font-weight: 600;
+    transition: color 0.3s;
+  }
+  #plan-change > p:hover {
+    color: rgb(139, 131, 227);
   }
 </style>
