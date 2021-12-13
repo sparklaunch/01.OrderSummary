@@ -1,11 +1,3 @@
-<svelte:head>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
-    rel="stylesheet"
-  />
-</svelte:head>
 <div id="title">
   <h1>Order Summary</h1>
   <p>
@@ -25,7 +17,7 @@
     margin-bottom: 20px;
   }
   #title > p {
-    color: hsl(215, 32%, 27%);
+    color: rgb(123, 123, 160);
     text-align: center;
     line-height: 1.5;
     font-size: 18px;

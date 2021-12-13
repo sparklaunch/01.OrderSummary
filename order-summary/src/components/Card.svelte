@@ -1,11 +1,13 @@
 <script>
   import Hero from "./Hero.svelte";
   import Title from "./Title.svelte";
+  import Plan from "./Plan.svelte";
 </script>
 
 <div id="card">
   <Hero />
   <Title />
+  <Plan />
 </div>
 
 <style>
