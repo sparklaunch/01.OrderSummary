@@ -22,6 +22,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: hsl(215, 51%, 70%);
+    background-color: rgb(219, 228, 255);
   }
 </style>

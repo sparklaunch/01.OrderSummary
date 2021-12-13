@@ -2,12 +2,14 @@
   import Hero from "./Hero.svelte";
   import Title from "./Title.svelte";
   import Plan from "./Plan.svelte";
+  import Buttons from "./Buttons.svelte";
 </script>
 
 <div id="card">
   <Hero />
   <Title />
   <Plan />
+  <Buttons />
 </div>
 
 <style>
