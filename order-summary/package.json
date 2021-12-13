@@ -1,5 +1,6 @@
 {
-  "name": "svelte-app",
+  "name": "order-summary",
+  "homepage": "https://sparklaunch.github.io/OrderSummary",
   "version": "1.0.0",
   "private": true,
   "scripts": {
