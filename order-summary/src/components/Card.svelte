@@ -1,16 +1,18 @@
 <script>
   import Hero from "./Hero.svelte";
+  import Title from "./Title.svelte";
 </script>
 
 <div id="card">
   <Hero />
+  <Title />
 </div>
 
 <style>
   #card {
     width: 400px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
     background-color: white;
     position: fixed;
     top: 50%;
