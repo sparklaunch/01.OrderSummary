@@ -22,6 +22,16 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(219, 228, 255);
+    background: url("/assets/pattern-background-desktop.svg") rgb(220, 229, 253);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  @media screen and (max-width: 1440px) {
+    #main {
+      background: url("/assets/pattern-background-mobile.svg")
+        rgb(220, 229, 253);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
   }
 </style>
