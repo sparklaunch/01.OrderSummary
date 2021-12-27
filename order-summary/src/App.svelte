@@ -11,12 +11,12 @@
     />
 </svelte:head>
 
-<div id="main">
+<main>
     <Card />
-</div>
+</main>
 
 <style>
-    #main {
+    main {
         position: fixed;
         top: 0;
         left: 0;
@@ -28,7 +28,7 @@
         background-size: contain;
     }
     @media screen and (max-width: 1440px) {
-        #main {
+        main {
             background: url("/assets/pattern-background-mobile.svg")
                 rgb(220, 229, 253);
             background-repeat: no-repeat;
